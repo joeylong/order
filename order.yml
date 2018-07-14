@@ -1,1 +1,29 @@
 
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8081/eureka/
+  server:
+      enable-self-preservation: false
+#  instance:
+#    hostname: clientName
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: root
+    url: jdbc:mysql://47.96.14.73:3306/wechat_order?characterEncoding=utf-8&useSSL=false
+  jpa:
+    show-sql: true
+  jackson:
+    default-property-inclusion: non_null
+  redis:
+    port: 6379
+    host: 192.168.1.100
+  application:
+    name: product
+server:
+  port: 8082
+  servlet:
+    context-path: /sell
+
