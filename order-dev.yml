@@ -1,6 +1,6 @@
 #  instance:
 #    hostname: clientName
-env: testeee
+env: test
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
