@@ -1,5 +1,6 @@
 #  instance:
 #    hostname: clientName
+env: dev
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
