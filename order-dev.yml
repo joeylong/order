@@ -1,6 +1,6 @@
 #  instance:
 #    hostname: clientName
-env: qqq
+env: qq
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
